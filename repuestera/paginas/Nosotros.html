@@ -1,0 +1,235 @@
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Nosotros - Repuestera La Nueva</title>
+<style>
+body {
+    background-color: #444;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    color: beige;
+}
+.cinta-superior {
+    background-color: #2d2727;
+    color: white;
+    padding: 8px 0;
+    font-size: 15px;
+    border-bottom: 2px solid firebrick;
+}
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #131313;
+    padding: 25px 20px;
+    border-radius: 20px;
+    text-shadow: 2px 2px 6px rgba(255, 0, 0, 0.4);
+}
+.logo img {
+    border-radius: 12px;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.5);
+}
+.titulo {
+    color: beige;
+    font-size: 60px;
+    text-shadow: 3px 3px 8px black;
+    text-align: center;
+}
+.menu a {
+    color: beige;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 10px;
+    transition: 0.3s;
+    text-shadow: 2px 2px 6px rgba(255, 0, 0, 0.4);
+}
+.menu a:hover {
+    color: red;
+    
+}
+    .menu-flotante {
+    display:none; position:fixed; bottom:20px; right:20px;
+    background:#080808; color:white; border:none; border-radius:50%;
+    width:55px; height:55px; font-size:28px; cursor:pointer;
+    box-shadow:0 4px 8px rgba(0,0,0,0.5); z-index:999;
+    transition:all 0.3s ease;
+    }
+    .menu-flotante:hover { background:#ff6666; transform:scale(1.1); }
+    /* 🔽 menú oculto desplegable */
+    .menu-desplegable {
+    display:none; position:fixed; bottom:80px; right:20px;
+    background:#121212; border-radius:10px; padding:10px; text-align:right;
+    box-shadow:0 4px 8px rgba(0,0,0,0.6);
+    }
+    .menu-desplegable a {
+    display:block; color:white; text-decoration:none; padding:8px 12px;
+    border-bottom:1px solid #333;
+    }
+    .menu-desplegable a:last-child { border-bottom:none; }
+    .menu-desplegable a:hover { color:#ff4d4d; }
+.contenido {
+    color: beige;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 40px;
+}
+.contenido h1 {
+    font-size: 38px;
+    text-shadow: 2px 2px 6px black;
+}
+.contenido p {
+    font-size: 22px;
+    line-height: 1.6;
+}
+.imagen-nosotros {
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+    margin-top: 20px;
+}
+footer {
+    background-color: rgb(18,18,18);
+    color: beige;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 20px 0;
+    text-align: center;
+}
+footer img {
+    border-radius: 12px;
+    transition: transform 0.3s;
+}
+footer img:hover {
+    transform: scale(1.1); 
+}
+.medios-pago {
+    background-color: rgb(18,18,18);
+    color: #fff;
+    padding: 25px 0;
+    text-align: center;
+}
+.medios-pago p {
+    font-size: 20px;
+}
+.medios-pago img {
+    width: 60px;
+    margin: 0 8px;
+}
+.medios-pago .info {
+    font-size: 18px;
+    color: #ccc;
+    margin-top: 15px;
+}
+.copy {
+    border-top: 1px solid #444;
+    margin-top: 15px;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #aaa;
+}
+</style>
+</head>
+<body>
+<div class="cinta-superior">
+    <marquee behavior="scroll" direction="left" scrollamount="5">
+        ⭐ UN POCO DE NUESTRA TRAYECTORIA ⭐
+    </marquee>
+</div>
+<div class="encabezado">
+    <div class="logo">
+        <img src="../imagenes/logorepuestera2.jpeg" width="130" height="100">
+    </div>
+    <div class="titulo">REPUESTERA LA NUEVA</div>
+    <div class="menu">
+        <a href="/paginas/administrador.php">Administrador</a>
+        <a href="/paginas/principal.html">Inicio</a>
+        <a href="/paginas/productos.html">Productos</a>
+        <a href="/paginas/contacto.html">Ubicación</a>
+    </div>
+</div>
+<div class="contenido">
+    <h1>NOSOTROS SOMOS REPUESTERA<br>LA NUEVA</h1>
+    <p>
+        Repuestera La Nueva es un comercio con más de <b>14 años de trayectoria</b>, dedicada a brindar soluciones de calidad en el rubro automotor.<br>
+        Ubicada en <b>Ecuador 214</b>, se ha consolidado como un referente en la venta de repuestos eléctricos e inyección electrónica, ofreciendo una atención personalizada tanto a clientes particulares como a talleres mecánicos.
+    </p>
+    <p>
+        Nuestro principal objetivo es garantizar que cada cliente encuentre exactamente lo que necesita. 
+        Por eso, trabajamos con un <b>amplio catálogo de productos y marcas confiables</b>, siempre priorizando la atención profesional y el asesoramiento técnico.
+    </p>
+    <p>
+        En La Nueva, entendemos la importancia de la confianza y la rapidez en este rubro.
+        Por eso, ofrecemos horarios amplios, múltiples medios de pago y atención cordial y directa. <br>
+        También podés encontrarnos en nuestras redes —<b>Instagram:</b> @Nueva.Repuestera | <b>Facebook:</b> LaNuevaRepuestera.Ok— donde compartimos <i>novedades, ofertas y consejos útiles</i>.
+    </p>
+    <p>
+        Si buscás una repuestera que combine <b>experiencia, compromiso y calidad</b>, La Nueva es tu mejor elección.<br>
+        Te esperamos para ofrecerte la mejor atención y los repuestos que tu vehículo necesita.
+    </p>
+    <div>
+        <h2 style="font-size:28px;">Nosotros Somos</h2>
+        <img src="../imagenes/Nostros.jpeg" width="500" height="500" class="imagen-nosotros">
+    </div>
+</div>
+<footer>
+    <b>Redes Sociales</b><br>
+    <a href="https://www.instagram.com/lanueva.repuestera">
+        <img src="../imagenes/instagram.jpeg" alt="Ir a Instagram" width="80" height="70">
+    </a>
+    <a href="https://www.facebook.com/La_Nueva_Repuestera">
+        <img src="../imagenes/facebook.jpeg" alt="Ir a Facebook" width="80" height="70">
+    </a>
+    <a href="tel:3888653765">
+        <img src="../imagenes/contacto.jpeg" alt="Ir a Contacto" width="80" height="70">
+    </a>
+</footer>
+<div class="medios-pago">
+    <p>Medios de pago:</p>
+    <img src="../imagenes/bbva.jpeg" alt="BBVA">
+    <img src="../imagenes/MasterCard.jpeg" alt="Mastercard">
+    <img src="../imagenes/mercadoPago.jpeg" alt="Mercado Pago">
+    <img src="../imagenes/efectivo.jpeg" alt="Efectivo">
+    <p class="info">
+        Más de 20 años brindando repuestos de calidad.<br>
+        Envíos a todo el país y atención personalizada.
+    </p>
+    <div class="copy">
+        © 2025 Repuestera La Nueva | Desarrollado por <strong>Gaspar Gaston</strong>
+    </div>
+</div>
+<!-- 🔽 Menú flotante agregado -->
+<button class="menu-flotante" id="btnMenu">☰</button>
+<div class="menu-desplegable" id="menuDesplegable">
+    <a href="/paginas/administrador.php">Administrador</a>
+    <a href="/paginas/index.html">Inicio</a>
+    <a href="/paginas/productos.html">Productos</a>
+    <a href="/paginas/contacto.html">Ubicación</a>
+</div>
+<script>
+    let slides = document.querySelectorAll('#carousel .slide');
+    let current = 0;
+    function show(n){ slides.forEach(s=>s.classList.remove('active')); slides[n].classList.add('active'); }
+    function next(){ current = (current + 1) % slides.length; show(current); }
+    function prev(){ current = (current - 1 + slides.length) % slides.length; show(current); }
+    setInterval(next, 3000);
+    // 🔽 Script para mostrar la flechita cuando se baja la página
+    const btnMenu = document.getElementById('btnMenu');
+    const menuDesplegable = document.getElementById('menuDesplegable');
+    window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+        btnMenu.style.display = 'block';
+    } else {
+        btnMenu.style.display = 'none';
+        menuDesplegable.style.display = 'none';
+    }
+    });
+    // Mostrar/ocultar menú al hacer click en la flechita
+    btnMenu.addEventListener('click', () => {
+    menuDesplegable.style.display = 
+        menuDesplegable.style.display === 'block' ? 'none' : 'block';
+    });
+</script>
+</body>
+</html>
